@@ -9,7 +9,7 @@ $ kubectl run pod-reader --image=pod-reader:1.0 -- <target namespace>
 $ kubectl logs pod-reader
 ```
 
-A handy way to test with this container is create an alias for exploring pods with these commands (assumes `default` namespace):
+A handy way to test with this container is to create an alias for exploring pods with these commands (assumes `default` namespace):
 
 ```bash
 $ alias reader='kubectl run pod-reader --image=pod-reader:1.0 -- default ; \
