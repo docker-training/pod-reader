@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:alpine3.12
 
 RUN pip install --no-cache-dir kubernetes
 
